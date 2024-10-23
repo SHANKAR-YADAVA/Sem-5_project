@@ -1,0 +1,9 @@
+langchain
+flask
+flask-cors
+streamlit
+pytesseract
+deep-translator
+requests
+Pillow
+uvicorn
