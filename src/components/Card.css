@@ -1,0 +1,42 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    /* position: relative;          relative */
+    flex-shrink: 0;              /* flex-shrink-0 */
+    /* overflow: hidden;            overflow-hidden */
+    width: 30rem;                /* w-60 (60 * 0.25rem = 15rem) */
+    min-height: 18rem;               /* h-72 (72 * 0.25rem = 18rem) */
+    border-radius: 40px;         /* rounded-[40px] */
+    /* background-color: rgba(24, 24, 27, 0.9); bg-zinc-900/90 (zinc-900 with 90% opacity) */
+    color: rgb(74, 57, 57);                /* text-white */
+    padding-left: 1.25rem;       /* px-5 (5 * 0.25rem = 1.25rem) */
+    padding-right: 1.25rem;      /* px-5 */
+    padding-top: 2.5rem;         /* py-10 (10 * 0.25rem = 2.5rem) */
+    padding-bottom: 2.5rem;   
+}
+
+.content {
+    line-height: 1.25;        /* leading-tight (equivalent to 1.25) */
+    font-weight: 600;         /* font-semibold */
+    font-size: 0.875rem;      /* text-sm (small text, 0.875rem = 14px) */
+    margin-top: 1.25rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    padding: 1rem;
+    overflow: visible;
+    white-space: normal;
+    font-family: monospace;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
